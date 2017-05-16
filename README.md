@@ -8,3 +8,5 @@ Greek life is huge in universities across the nation, especially so at Purdue. E
 When a group of a couple hundred students have to coordinate all of this, it becomes very crucial how they communicate and get things organized. As a friend of many students in fraternities and sororities, and as a former member myself, I can say with certainty that there are many times the lack of effective communication among brothers/sisters has caused a lot of issues and arguments, and things going out of hand.
 
 Greek Planning Assistant is a tool that will help make planning and collaboration within a chapter, and between different chapters in a university, much simpler.
+
+> This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
