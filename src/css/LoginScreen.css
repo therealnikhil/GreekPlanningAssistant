@@ -1,0 +1,22 @@
+.greek-house-pic {
+	background: url('../img/greek-house.png') no-repeat fixed left;
+	background-size: auto 100vh;
+	overflow: hidden;
+	position: fixed;
+}
+
+.control-label {
+	font-weight: normal;
+	display: block;
+	text-align: left;
+}
+
+.form-control {
+	background: #FFFFFF;
+	border: 1px solid #B1B1B1;
+	border-radius: 2px;
+}
+
+form {
+	margin-top: 3em;
+}
