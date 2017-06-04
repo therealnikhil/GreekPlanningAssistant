@@ -36,8 +36,11 @@
 	min-height: 100vh;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6, a {
 	color: #0291F3;
+}
+
+h1 {
 	font-size: 2em;
 	font-weight: normal;
 	letter-spacing: 0;
@@ -45,8 +48,19 @@ h1 {
 	margin-bottom: 0.33em;
 }
 
+h5 {
+	padding: 0 0 2px 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: lighter;
+}
+
 a {
-	color: #0291F3;
 	text-decoration: none;
 }
 
