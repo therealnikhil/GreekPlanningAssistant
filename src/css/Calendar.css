@@ -1,0 +1,72 @@
+.calendar-widget {
+	clear: both;
+	padding: 1em 0;
+}
+
+h2.month-and-year {
+	display: block;
+	font-size: 1.75em;
+	font-weight: lighter;
+	color: #101010;
+	letter-spacing: 0;
+	text-align: center;
+	margin: 0;
+}
+
+.left-arrow {
+	display: inline-block;
+	float: left;
+	background: url('../img/left-arrow.svg') no-repeat left;
+	background-size: 11px 17px;
+	width: 11px;
+	height: 17px;
+	padding-right: 50px;
+	margin-top: 0.3em;
+	margin-left: 2em;
+}
+
+.right-arrow {
+	display: inline-block;
+	float: right;
+	background: url('../img/right-arrow.svg') no-repeat right;
+	background-size: 11px 17px;
+	width: 11px;
+	height: 17px;
+	padding-left: 50px;
+	margin-top: 0.3em;
+	margin-right: 2em;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+	cursor: pointer;
+}
+
+.calendar-table {
+	margin-top: 0.75em;
+}
+
+.calendar-table > thead > tr > th {
+	text-align: center;
+	font-weight: normal;
+	border-bottom: none;
+}
+
+.calendar-table > tbody > tr {
+	border-left: 4px solid #A0A0A0;
+	border-right: 4px solid #A0A0A0;
+}
+
+.calendar-table > tbody > tr > td {
+	background: #FFFFFF;
+	border: 2px solid #A0A0A0;
+	color: #6B6B6B;
+	letter-spacing: 0;
+	text-align: center;
+	height: 126px;
+	width: 126px;
+	text-align: right;
+}
+
+.calendar-table > tbody > tr > td.no-date {
+	background: #EAEAEA;
+}

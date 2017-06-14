@@ -34,8 +34,18 @@
 	vertical-align: middle;
 }
 
+.scrollable-section {
+	position: absolute;
+	bottom: 36px;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
 .navlinks {
 	width: 100%;
+	overflow: scroll;
+	min-height: 600px;
 }
 
 .navlink-inactive {
@@ -68,4 +78,5 @@
 	color: #EDEDED;
 	letter-spacing: 0;
 	padding: 10px;
+	z-index: 10000;
 }

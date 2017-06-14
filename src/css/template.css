@@ -21,6 +21,10 @@
 	height: 100vh;
 }
 
+.non-sidebar-content {
+	margin-left: 300px;
+}
+
 @media only screen and (max-width: 767px) {
 	.right-half {
 		width: 100vw;
@@ -45,7 +49,7 @@ h1 {
 	font-weight: normal;
 	letter-spacing: 0;
 	text-align: center;
-	margin-bottom: 0.33em;
+	margin: 1.2em 0 0.4em 0;
 }
 
 h5 {
@@ -71,6 +75,7 @@ a:hover {
 
 hr {
 	border: 1px solid #0291F3;
+	margin-top: 0;
 }
 
 p {
@@ -110,4 +115,28 @@ p {
 
 .right-align {
 	text-align: right;
+}
+
+.search-bar {
+	background: url('../img/search-icon.svg') no-repeat;
+	background-size: 16px auto;
+	background-position: 99.5% center;
+	width: 100%;
+	padding-left: 4px;
+}
+
+.add-plus {
+	font-size: 20px;
+	display: inline;
+	vertical-align: middle;
+}
+
+.mid-align {
+	display: inline;
+	vertical-align: middle;
+}
+
+.dropdown-toggle {
+	padding-top: 2px;
+	padding-bottom: 2px;
 }

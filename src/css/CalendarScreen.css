@@ -1,0 +1,10 @@
+.display-options {
+	display: inline-block;
+	float: left;
+	padding-top: 10px;
+}
+
+.add-to-cal-buttons {
+	display : inline-block;
+	float : right;
+}
