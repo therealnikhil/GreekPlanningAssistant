@@ -4,11 +4,19 @@ import { Button, ButtonGroup } from 'react-bootstrap';
 import '../../css/template.css';
 import '../../css/SideBar.css';
 
-let FEATURES = [ "Calendar", "My Events", "Task Manager", "Files and Links", "Account Settings", "Chapter Settings", "Join Requests" ]
+let FEATURES = [
+	{ name: "Calendar", lock: false },
+	{ name: "My Events", lock: false },
+	{ name: "Task Manager", lock: false },
+	{ name: "Files and Links", lock: false },
+	{ name: "Account Settings", lock: false },
+	{ name: "Chapter Settings", lock: true },
+	{ name: "Join Requests", lock: true }
+]
 
 export default class SideBar extends Component {
 	static propTypes = {
-		activePage : PropTypes.oneOf(FEATURES).isRequired
+		activePage : PropTypes.oneOf(FEATURES.name).isRequired
 	}
 	static defaultProps = {
 		sidebarItems : FEATURES
@@ -36,12 +44,12 @@ export default class SideBar extends Component {
 							this.props.sidebarItems.map((sidebarItem, i) => {
 								return (
 									<Button
-										className={ (this.props.activePage === sidebarItem) ? "navlink-active" : "navlink-inactive" }
+										className={ (this.props.activePage === sidebarItem.name) ? "navlink-active" : "navlink-inactive" }
 										style={{"borderRadius" : 0}}
 										key={i}
-										onClick={this.navLinkPressed.bind(this, sidebarItem)}
+										onClick={this.navLinkPressed.bind(this, sidebarItem.name)}
 									>
-									{sidebarItem}
+									<div className={sidebarItem.lock && "admin-lock"}>{sidebarItem.name}</div>
 									</Button>
 								)
 							})

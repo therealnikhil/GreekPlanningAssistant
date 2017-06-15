@@ -54,7 +54,7 @@
 	color: #EDEDED;
 	letter-spacing: 0;
 	border: 1px solid #0291F3;
-	text-align: left;
+	text-align: justify;
 	padding: 15px;
 }
 
@@ -79,4 +79,20 @@
 	letter-spacing: 0;
 	padding: 10px;
 	z-index: 10000;
+}
+
+.admin-lock {
+	background: url('../img/lock-icon.svg') no-repeat;
+	background-size: 16px 16px;
+	background-position: right center;
+	padding-right: 16px;
+	width: 100%;
+}
+
+.navlink-active > .admin-lock, .navlink-active:hover > .admin-lock, .navlink-inactive:hover > .admin-lock {
+	background: url('../img/lock-icon-blue.svg') no-repeat;
+	background-size: 16px 16px;
+	background-position: right center;
+	padding-right: 16px;
+	width: 100%;
 }

@@ -1,0 +1,20 @@
+
+<svg width="17px" height="20px" viewBox="0 0 17 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Calendar-before-Event" transform="translate(-360.000000, -635.000000)">
+            <g id="Navbar">
+                <g id="Navbar-Links" transform="translate(0.000000, 181.000000)">
+                    <g id="Chapter-Settings" transform="translate(0.000000, 425.000000)">
+                        <g id="Lock" transform="translate(360.000000, 31.000000)">
+                            <path d="M8.5,7.37223862 C11.3166522,7.37223862 13.6,10.4779221 13.6,6.75 C13.6,3.02207794 11.3166522,0 8.5,0 C5.68334778,0 3.4,3.02207794 3.4,6.75 C3.4,10.4779221 5.68334778,7.37223862 8.5,7.37223862 Z" id="Oval-2" stroke="#0291F3" stroke-width="2.25"></path>
+                            <path d="M7.93209404,12.3799207 L7.36666667,14.625 L9.63333333,14.625 L9.06790596,12.3799207 C9.7275342,12.1836088 10.2,11.6549747 10.2,11.0336538 C10.2,10.2450549 9.43888407,9.60576923 8.5,9.60576923 C7.56111593,9.60576923 6.8,10.2450549 6.8,11.0336538 C6.8,11.6549747 7.2724658,12.1836088 7.93209404,12.3799207 Z M0,5.625 L17,5.625 L17,18 L0,18 L0,5.625 Z" id="Combined-Shape" fill="#0291F3"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
